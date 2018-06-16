@@ -3,5 +3,5 @@ def display_board
   cell = Array.new(3, "   ")
   dash = "-----------"
   puts "#{cell.join("|")}"
-  print "#{dash}"
+  puts "#{dash}"
 end
