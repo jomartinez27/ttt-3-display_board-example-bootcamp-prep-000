@@ -3,7 +3,7 @@ def display_board
   row = Array.new(3, "   ")
   dash = "-----------"
   3.times do
-    "#{row.join("|")}"
-    "#{dash}"
+    puts "#{row.join("|")}"
+    puts "#{dash}"
   end
 end
