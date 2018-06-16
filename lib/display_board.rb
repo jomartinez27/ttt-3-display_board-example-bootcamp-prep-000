@@ -6,5 +6,5 @@ def display_board
     puts "#{row.join("|")}"
     puts "#{dash}"
   end
-  "#{top_rows}"
+  "#{top_rows}\n#{row.join("|")}"
 end
