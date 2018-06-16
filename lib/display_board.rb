@@ -3,4 +3,7 @@ def display_board
   row0 = Array.new(3, " ")
   row1 = Array.new(3, " ")
   row2 = Array.new(3, " ")
+  col0 = Array.new(3, " |")
+  col1 = Array.new(3, " |")
+  col2 = Array.new(3, " |")
 end
