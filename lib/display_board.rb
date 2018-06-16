@@ -2,6 +2,7 @@
 def display_board
   row = Array.new(3, "   ")
   dash = "-----------"
-  puts "#{cell.join("|")}"
+  puts "#{row.join("|")}"
   puts "#{dash}"
+  puts 
 end
