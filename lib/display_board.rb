@@ -2,9 +2,9 @@
 def display_board
   row = Array.new(3, "   ")
   dash = "-----------"
-  puts "#{row.join("|")}"
-  puts "#{dash}"
-  puts "#{row.join("|")}"
-  puts "#{dash}"
-  puts "#{row.join("|")}"
+  top_rows = 2.times do
+    puts "#{row.join("|")}"
+    puts "#{dash}"
+  end
+  "#{top_rows}"
 end
